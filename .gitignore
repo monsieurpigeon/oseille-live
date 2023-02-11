@@ -12,3 +12,4 @@
 **/supabase/.branches
 **/supabase/.temp
 .env
+.env.local

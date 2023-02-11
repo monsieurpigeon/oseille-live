@@ -8,8 +8,8 @@ import { mutators } from "../../src/mutators";
 
 // Next.js runs this server-side.
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  const {params} = context;
-  const {id: listID} = params as {id: string};
+  const { params } = context;
+  const { id: listID } = params as { id: string };
 
   // Ensure the selected space exists. It's common during development for
   // developers to delete the backend database. As a convenience, we
@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   if (!(await spaceExists(listID))) {
     return {
       redirect: {
-        destination: `/`,
+        destination: "/",
         permanent: false,
       },
     };

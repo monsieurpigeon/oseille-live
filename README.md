@@ -30,3 +30,8 @@ You can find the complete Replicache documentation at https://doc.replicache.dev
 ## Get Help
 
 Come say hi on [Discord](https://discord.replicache.dev/)! We're happy to help you get setup and answer questions.
+
+## Links
+
+https://vercel.com/mpigeon/oseille-live-u1yo
+https://dashboard.pusher.com/apps/1553190/stats?period=day
